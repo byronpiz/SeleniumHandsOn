@@ -73,7 +73,7 @@ input_pass.send_keys("secreto")
 input_area = driver.find_element(By.NAME, "my-textarea")
 input_area.send_keys("texto super largo")
 input_area = driver.find_element(By.CLASS_NAME, "form-select")
-input_area.send_keys("2")
+input_area.send_keys(Keys.DOWN)
 
 btm_enviar = driver.find_element(By.CLASS_NAME, "btn-outline-primary")
 btm_enviar.click()
